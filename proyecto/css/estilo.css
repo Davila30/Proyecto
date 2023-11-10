@@ -18,6 +18,11 @@
     src: url(../font/electrolize/ubuntu/ubuntu-font-family-0.80/Ubuntu-B.ttf);
 }
 
+@font-face {
+    font-family: footer;
+    src: url(../font/electrolize/ubuntu/ubuntu-font-family-0.80/UbuntuMono-RI.ttf);
+}
+
 body {
     background-color: #FFEAE6;
     color: aliceblue;
@@ -25,7 +30,7 @@ body {
     font-size: 3em;
 }
 
-#topnav {
+.topnav {
     padding-left: 5%;
     background-color: #ac9c89;
     font-size: 0.5em;
@@ -33,41 +38,51 @@ body {
     padding-bottom: 1%;
 }
 
-#hero img {
+.hero img {
     width: 100%;
     height: 100%;
 }
 
-#wrapper {
+.wrapper {
     margin: auto;
+    padding-bottom: 2%;
     width: 95%;
     margin-top: 2%;
     background-color: #9f5179;
 }
 
-#intro {
-    margin: 2%, 5%, 0, 0;
+.mazda {
+    margin: 2% 5% 0 0;
+    text-indent: 20px;
+    text-align: right;
+    font-family: titulos;
+    
+}
+
+.honda {
+    text-indent: 20px;
+    font-family: titulos;
+}
+
+.subaru{
+    margin: 2% 5% 0 0;
     text-indent: 20px;
     text-align: right;
     font-family: titulos;
 }
 
-#gallery {
+.toyota{
+    margin-bottom: 2%;
     text-indent: 20px;
+    font-family: titulos;
 }
 
-#tercera{
-    text-indent: 20px;
-}
-
-#cuarta{
-    text-indent: 20px;
-}
-
-#footer {
+.footer {
+    font-family: footer;
+    color: black;
     text-align: center;
     text-indent: 5%;
-    font-size: 1em;
+    font-size: 0.5em;
 }
 
 @media screen and (max-width: 600px) {
