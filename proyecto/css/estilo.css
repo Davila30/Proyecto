@@ -3,10 +3,14 @@
 /*
 /*
 /**************************************/
+
+/* Cambios para toda la página */
 * {
     margin: 0;
     padding: 0;
 }
+
+/* Fuentes */
 
 @font-face {
     font-family: titulos;
@@ -23,6 +27,7 @@
     src: url(../font/electrolize/ubuntu/ubuntu-font-family-0.80/UbuntuMono-RI.ttf);
 }
 
+/* Estilo del body */
 body {
     background-color: #FFEAE6;
     color: aliceblue;
@@ -30,6 +35,7 @@ body {
     font-size: 3em;
 }
 
+/* Estilo del nav */
 .topnav {
     padding-left: 5%;
     background-color: #ac9c89;
@@ -38,12 +44,10 @@ body {
     padding-bottom: 1%;
 }
 
-.hero img {
-    width: 100%;
-    height: 100%;
-}
-
+/* Estilo de wrapper */
 .wrapper {
+    border-top: 5px solid black;
+    border-left: black;
     margin: auto;
     padding-bottom: 2%;
     width: 95%;
@@ -51,33 +55,28 @@ body {
     background-color: #9f5179;
 }
 
-.mazda {
-    margin: 2% 5% 0 0;
-    text-indent: 20px;
+/* Estilo de la img de la hero section */
+.hero img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Cambios para la se */
+.izquierda {
+    margin-top: 2%;
+    padding-left: 5%;
+    background-color: #a79a98;
+}
+
+.derecha {
+    background-color: #2d2828;
+    margin-top: 2%;
+    padding-right: 5%;
     text-align: right;
-    font-family: titulos;
-    
-}
-
-.honda {
-    text-indent: 20px;
-    font-family: titulos;
-}
-
-.subaru{
-    margin: 2% 5% 0 0;
-    text-indent: 20px;
-    text-align: right;
-    font-family: titulos;
-}
-
-.toyota{
-    margin-bottom: 2%;
-    text-indent: 20px;
-    font-family: titulos;
 }
 
 .footer {
+    background-color: antiquewhite;
     font-family: footer;
     color: black;
     text-align: center;
