@@ -74,7 +74,7 @@ nav {
 
 .topnav {
     overflow: hidden;
-    background-color: rgb(125, 72, 155);
+    background-color: rgb(197, 75, 144);
 }
 
 .topnav a {
@@ -88,7 +88,7 @@ nav {
 }
 
 .topnav a:hover {
-    background-color: #300e50;
+    background-color: #6e0637;
     color: white;
 }
 
@@ -99,7 +99,6 @@ nav {
 /* Estilos del div wrapper */
 .wrapper {
     margin: auto;
-    margin-top: 2.5%;
     margin-bottom: 2.5%;
     background-color: #101010;
     width: 95%;
@@ -107,7 +106,8 @@ nav {
 
 /* Imagen de la sección: hero */
 #hero img {
-    margin-top: 40px;
+    padding-top: 50px;
+    margin-top: 20px;
     width: 100%;
     height: 100%;
 }
@@ -161,7 +161,7 @@ nav {
 /* Estilos de la sección: características */
 
 #caracteristics {
-    padding: 0% 5% 0% 5%;
+    padding: 0% 10% 0% 10%;
 }
 
 /* Estilo del footer */
