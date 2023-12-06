@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Japanese sports cars </title>
     <link rel="stylesheet" href="./css/estilo.css" />
+    <script src="./scripts/script.js"></script>
     <link rel="shortcut icon" href="./img/faviconPink.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="topnav">
-        <nav>HOME - COCHES - MOTORES - CARACTERISTICAS - GALLERY</nav>
-    </div>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#hero">Home</a>
+            <a href="#coches">Cars</a>
+            <a href="#motors">Motors</a>
+            <a href="#caracteristics">Caracteristics</a>
+            <a href="#gallery">Gallery</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
 
     <div class="wrapper">
-
         <section id="hero">
             <img src="./img/Hero_mazda.png" alt="" srcset="">
         </section>
@@ -58,7 +68,7 @@
             </div>
         </section>
 
-        <section id="motores">
+        <section id="motors">
             <h1> MOTORS </h1>
             <div class="flex_motores_otros_coches">
                 <div id="motor_mazda">
@@ -112,7 +122,7 @@
             </div>
         </section>
         
-        <section id="caracteristicas">
+        <section id="caracteristics">
             <h1 id="h1_caracteristicas"> CARACTERISTICAS </h1>
             <div id="caracteristica_mazda">
                 <h5>Mazda</h5>
@@ -140,7 +150,7 @@
             </div>
         </section>
 
-        <section id="otros_coches"> 
+        <section id="gallery"> 
             <h1> GALLERY </h1>  
             <div class="flex_motores_otros_coches">        
                 <div id="otro_coche_mazda">
