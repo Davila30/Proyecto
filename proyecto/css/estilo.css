@@ -36,7 +36,7 @@ h5 {
     font-size: 2.5em;
     margin: 5% 0% 10% 0%;
     padding: 1% 5% 1% 5%;
-    color: rgb(214, 4, 74);
+    color: #a91043;
     text-align: center;
 }
 
@@ -46,7 +46,7 @@ h6 {
     margin: 8% 0% 4% 0%;
     padding: 1% 5% 1% 5%;
     text-align: center;
-    color: rgb(169, 16, 67);
+    color: #a91043;
     text-shadow: 2px 2px 2px rgb(255, 255, 255);
 }
 
@@ -74,7 +74,7 @@ nav {
 
 .topnav {
     overflow: hidden;
-    background-color: rgb(197, 75, 144);
+    background-color: #c54b90;
 }
 
 .topnav a {
@@ -165,13 +165,28 @@ nav {
 }
 
 /* Estilo del footer */
-#footer {
+.footer {
     font-family: footer;
-    font-size: 1.5em;
-    margin-bottom: 5%;
     text-align: center;
     background-color: rgb(0, 0, 0);
-    color: whitesmoke;
+    color: rgb(255, 209, 209);
+}
+/* Estilo contenido del footer */
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
 }
 
 /* Cambio responsive cuando la pantalla tenga 1000px */
