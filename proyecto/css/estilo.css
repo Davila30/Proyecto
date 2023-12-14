@@ -287,7 +287,7 @@ nav {
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
     #h1_caracteristicas {
         font-size: 1.65em;
     }
