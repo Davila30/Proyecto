@@ -195,6 +195,7 @@ nav {
     float: left;
     text-decoration: none;
     font-size: 1.5em;
+    overflow: hidden;
     flex: 1;
     width: 30px;
     margin: 5% 8%;
@@ -298,7 +299,11 @@ nav {
     h6 {
         font-size: 1.75em;
     }
-    
+
+    h3{
+        font-size: 0.75em;
+    }
+
     #caracteristics {
         padding: 0% 5% 0% 5%;
     }
@@ -327,4 +332,9 @@ nav {
     .flex {
         flex-wrap: wrap;
     }
+
+    .footer-nav a{
+        font-size: 1em;
+    }
+
 }
