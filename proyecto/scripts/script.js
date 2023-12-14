@@ -15,3 +15,9 @@ function myFunction() {
         });
     });
 }
+
+//Funcion footer
+
+function onFooter() {
+    
+}
